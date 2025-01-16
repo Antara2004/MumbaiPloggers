@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mumbai Ploggers</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/Main logo fevicon.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+
+<link rel="stylesheet" href="/public/css/style.css" />
+
+
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="Mumbai-logo">
+        <a href="#">
+          <img class="logo" alt="Mumbai Plogger" src="/public/images/Main logo fevicon.svg" />
+        </a>
+      </div>
+      <!-- Add the text here -->
+      <div class="logo-text">
+        <h1 class="main-title">Mumbai Ploggers</h1>
+        <p class="tagline">Tomorrow’s hope begins with today’s actions. </p>
+      </div>
+    </div>
+
+    <!-- Hamburger icon -->
+    <button class="hamburger" id="hamburger">
+      <span class="hamburger-icon"></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <ul class="main-nav-list">
+        <li><a class="main-nav-link" href="#">Home</a></li>
+        <li><a class="main-nav-link" href="#about">About</a></li>
+        <li><a class="main-nav-link" href="#upcomingEvents">Events</a></li>
+        <li><a class="main-nav-link" href="/public/html/gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navList = document.getElementById("main-nav");
+
+    hamburger.addEventListener("click", () => {
+      navList.classList.toggle("show");
+      hamburger.classList.toggle("active");
+    });
+  </script>
+
+
+
+
+  <section class="section-hero">
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 class="Run-for-earth">Run for Earth, Volunteer Today!</h1>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section-featured">
+    <div class="container">
+      <h2 class="heading-featured-in">RECOGNIZED BY</h2>
+
+      <!-- Slider for Left to Right -->
+      <div class="slider">
+        <div class="slider-wrapper-left">
+          <img class="news" src="/public/images/economic times.png" alt="economic times" />
+          <img class="news" src="/public/images/news band logo.png" alt="news band" />
+          <img class="news" src="public/images/PMC.png" alt="panvel" />
+          <img class="news" src="public/images/BMC.png" alt="municipal" />
+        </div>
+      </div>
+
+      <!-- Slider for Right to Left -->
+      <div class="slider">
+        <div class="slider-wrapper-right">
+          <img class="news" src="/public/images/sakal logo.png" alt="Sakal news" />
+          <img class="news" src="/public/images/the times of india logo.jpg" alt="times of india" />
+          <img class="news" src="public/images/TMC-removebg-preview.png" alt="thane" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="about-us" id="about">
+    <h1 class="heading-about">
+      About Us
+    </h1>
+    <div class="vision-about">
+
+      <h2 class="vision-h2">Vision</h2>
+      <p class="p-h2">Mumbai Ploggers, as an initiative, aims to mobilize individuals in the cities of Mumbai and Navi
+        Mumbai and
+        sensitize our communities towards the issues of waste management and environmental conservation.
+      </p>
+    </div>
+
+    <div class="approach-about">
+      <h2 class="vision-h2">Our Approach</h2>
+
+      <div class="image-row">
+        <div class="image-container">
+          <img src="public/images/working with comm.jpg" alt="Working with communities and individuals">
+          <p>Working with communities and individuals</p>
+        </div>
+
+        <div class="image-container">
+          <img src="public/images/changing mindsets.jpg" alt="Changing Mindsets">
+          <p>Changing Mindsets</p>
+        </div>
+
+        <div class="image-container">
+          <img src="public/images/impacting environment.jpg" alt="Impacting environment">
+          <p>Impacting environment</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sdgsfeatures-about">
+      <h2 class="vision-h2">SDGs ADDRESSED</h2>
+
+      <div class="image-row">
+        <div class="image-container">
+          <img src="public/images/good health and well being.jpg" alt="good health and well being">
+        </div>
+        <div class="image-container">
+          <img src="public/images/sustainable cities and communities.jpg" alt="sustainable cities and communities">
+        </div>
+        <div class="image-container">
+          <img src="public/images/responsible consumption and protocol.jpg" alt="responsible consumption and protocol">
+        </div>
+      </div>
+
+      <div class="image-row">
+        <div class="image-container">
+          <img src="public/images/climate action.jpg" alt="climate action">
+        </div>
+        <div class="image-container">
+          <img src="public/images/life below water.jpg" alt="life below water">
+        </div>
+        <div class="image-container">
+          <img src="public/images/life on land.jpg" alt="life on land">
+        </div>
+      </div>
+    </div>
+
+    <div class="about-img-box">
+
+      <div class="Rashmi-pic"><img src="/public/images/Rashmi Singh.png" alt="Rashmi"></div>
+      <div class="p-rashmi">
+        <p>Rashmi Singh</p>
+        <p class="founder-p">Founder, Mumbai Ploggers</p>
+        <p class="Rashmi-info">Mumbai Ploggers, founded by Rashmi Singh in November 2020 at age 23, aims to raise
+          awareness about waste management at natural attractions in Mumbai and Navi Mumbai. As a passionate advocate of
+          the UN's sustainable development goals, Rashmi believes in creating lasting change through education and
+          mindset shifts for a better, sustainable future.
+
+        </p>
+      </div>
+    </div>
+
+    <section class="about-team">
+      <h2 class="meet-p">Meet the Core Team</h2>
+
+      <div class="core-team">
+        <div class="team-member">
+          <img class="team-img" src="/public/images/dipa m.png" alt="DIPANNITA MONDAL">
+          <p class="team-name">DIPANNITA MONDAL</p>
+          <p class="team-role">Coordinator</p>
+        </div>
+        <div class="team-member">
+          <img class="team-img" src="/public/images/diva s.png" alt="DIVAKAR SHUKLA">
+          <p class="team-name">DIVAKAR SHUKLA</p>
+          <p class="team-role">Prabhadevi Lead</p>
+        </div>
+        <div class="team-member">
+          <img class="team-img" src="/public/images/pooja s.png" alt="POOJA SWAR">
+          <p class="team-name">POOJA <br> SWAR</p>
+          <p class="team-role">Coordinator</p>
+
+        </div>
+        <div class="team-member">
+          <img class="team-img" src="/public/images/abhi b.png" alt="ABHINAV BANSAL">
+          <p class="team-name">ABHINAV BANSAL</p>
+          <p class="team-role">Kharghar Lead</p>
+
+        </div>
+        <div class="team-member">
+          <img class="team-img" src="/public/images/sri d.png" alt="SRISHTI DEDHIA">
+          <p class="team-name">SRISHTI DEDHIA</p>
+          <p class="team-role">Coordinator</p>
+
+        </div>
+      </div>
+      <div class="join-butt">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScnVIfzl9LkPOuE-o_wG1qoo4OtNG0bV66W5arocdD08XACbw/viewform"
+          class="join-us-btn">Join Us</a>
+      </div>
+      <!-- Join Us button -->
+
+
+    </section>
+
+    <!-- Repeat for more events -->
+    </div>
+  </section>
+  <!-- Content of the page -->
+
+  <!--
+  /**************************/
+  /* LOGIN PAGE        */
+  /**************************/
+-->
+  <section class="admin-login-section">
+
+    <div id="loginModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 class="login-h21">Login</h2>
+
+        <form class="login-form" onsubmit="return handleLogin(event);">
+
+          <!-- Remove action="/admin/login" and method="POST" -->
+          <div class="form-group">
+            <label for="username">
+              <i class="fa fa-user"></i>
+              <p class="user-name">Username</p>
+            </label>
+            <input type="text" id="username" name="username" placeholder="Type your username" required>
+          </div>
+          <div class="form-group">
+            <label for="password">
+              <i class="fa fa-lock"></i>
+              <p class="user-name">Password</p>
+            </label>
+            <input type="password" id="password" name="password" placeholder="Type your password" required>
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!-- /public/html/index.html -->
+  <section id="upcomingEvents">
+    <h1 class="UP-event-h1">Upcoming Events</h1>
+    <div class="events-container" id="eventsContainer">
+      <!-- Event cards will be dynamically injected here -->
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer-content">
+      <h2 class="footer-title">How to Plog?</h2>
+      <p class="footer-description">
+        Plogging combines jogging with picking up litter. Here’s how you can get started:
+      </p>
+      <ol class="plogging-steps">
+        <li><strong>Gear Up:</strong> Wear comfortable running shoes and gloves to protect your hands.</li>
+        <li><strong>Choose a Route:</strong> Pick a path you enjoy, whether it's a park, beach, or neighborhood.</li>
+        <li><strong>Bring a Bag:</strong> Use a reusable bag to collect litter as you jog.</li>
+        <li><strong>Stay Safe:</strong> Be aware of your surroundings and avoid dangerous areas.</li>
+        <li><strong>Dispose of Waste Properly:</strong> Make sure to sort and dispose of the collected litter
+          responsibly. Recycle where possible!</li>
+        <li><strong>Enjoy the Experience:</strong> Plogging is a great way to exercise while making your community
+          cleaner!</li>
+      </ol>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const footerContent = document.querySelector('.footer-content');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            footerContent.classList.add('visible'); // Add the visible class when in view
+            footerContent.style.animation = 'slideIn 0.8s ease-out forwards'; // Trigger animation
+          }
+        });
+      });
+
+      observer.observe(footerContent); // Observe the footer content
+    });
+  </script>
+
+  <section id="environmental-clubs">
+    <div class="container">
+      <h2 class="heading-featured-in">Environmental Clubs</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="public/images/menstruation.png" alt="Session on Sustainable menstruation">
+          <h3>Menstruation awareness</h3>
+          <p>Session on Sustainable menstruation</p>
+        </div>
+        <div class="card">
+          <img src="public/images/Chalk of shame.png" alt="Chalk of Shame - Chalk Awareness Drive on Roads">
+          <h3>Chalk of Shame</h3>
+          <p> Chalk Awareness Drive on Roads.</p>
+        </div>
+        <div class="card">
+          <img src="public/images/waste seggregation.png" alt="Waste Segregation Awareness Drive in Slums">
+          <h3>Waste seggregation</h3>
+          <p>Waste Segregation Awareness Drive in Slums</p>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <button class="faq-question">What is plogging?</button>
+      <div class="faq-answer">
+        <p>Plogging is a combination of jogging while picking up litter. It's an eco-friendly way to stay fit and help
+          the environment.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How can I join an event?</button>
+      <div class="faq-answer">
+        <p>You can join an event by filling out the registration form on the website or contacting us directly via the
+          contact section.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Do I need to be an experienced runner to participate?</button>
+      <div class="faq-answer">
+        <p>No, plogging is for everyone! You can jog, walk, or run at your own pace. The goal is to collect litter while
+          staying active, and there’s no pressure to go fast.</p>
+      </div>
+    </div>
+
+
+
+    <div class="faq-item">
+      <button class="faq-question">Do I need any special equipment?</button>
+      <div class="faq-answer">
+        <p>No special equipment is required. We suggest bringing gloves and a reusable bag for collecting litter.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">How do you dispose of the collected waste?</button>
+      <div class="faq-answer">
+        <p>After each event, we sort the collected waste into recyclable and non-recyclable items. We work with local
+          recycling centers and waste management authorities to ensure proper disposal.</p>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <p>Follow Us On</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/mumbaiploggerss?igsh=amV3amFqeXc1dGIy" target="_blank"
+          class="social-icon instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/mumbaiploggers?mibextid=ZbWKwL" target="_blank" class="social-icon facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://wa.me/123456789" target="_blank" class="social-icon whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://x.com/theplogwoman" target="_blank" class="social-icon twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        </a>
+        <a href="https://in.linkedin.com/company/mumbai-ploggers?trk=public_post_feed-actor-name" target="_blank"
+          class="social-icon linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://m.youtube.com/watch?fbclid=PAAaYSp8besdjwxdiBySrNxVUM1UqDnpGcxTUwvSTI1dIlR-Rt4dXHhQyosO4&v=eMsTXlgX89g&feature=youtu.be"
+          target="_blank" class="social-icon youtube">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <p>&copy; 2024 Plogging NGO. All rights reserved.</p>
+    </div>
+    <button id="adminLoginBtn" class="main-nav-link nav-cta">A</button>
+
+  </footer>
+
+
+
+  <script src="/public/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>
+
+
+<script src="/public/js/main.js"></script>
+
+
+
+
+</body>
+
+</html>

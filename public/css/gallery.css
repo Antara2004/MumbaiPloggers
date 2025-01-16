@@ -1,0 +1,71 @@
+/* Style for the body and other elements */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Style for the gallery container */
+#image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align the images */
+  gap: 4rem; /* Space between the images */
+  padding-top: 2rem;
+  padding-bottom: 2rem; /* Added padding to make sure there's space below */
+}
+
+/* Style for the images */
+.gallery-image {
+  width: 40rem; /* Set a fixed width */
+  height: 20rem; /* Maintain aspect ratio */
+  padding: 5px;
+}
+
+.image-mera {
+  background-image: linear-gradient(
+    to bottom,
+    #a8d5ba,
+    #6bbf73
+  ); /* Green gradient */
+  background-size: cover; /* Ensures the background covers the entire area */
+  background-position: center; /* Centers the gradient */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-attachment: fixed; /* Keeps the background fixed during scrolling */
+}
+
+/* Sticky header style */
+.gallery-header {
+  color: white;
+  padding: 0.5rem 0; /* Reduced padding */
+  text-align: center;
+  background-color: rgba(45, 106, 79, 0.8); /* Green color with 80% opacity */
+  font-family: "Montserrat", sans-serif;
+  position: sticky; /* Makes the header sticky */
+  top: 0; /* Sticks the header to the top of the viewport */
+  z-index: 1000; /* Ensures the header stays above other elements */
+}
+
+.gallery-header h1 {
+  font-size: 4.5rem; /* Reduced font size */
+  margin: 0; /* Remove default margin for the header */
+}
+
+/* Styling for the back button */
+.back-button {
+  position: absolute; /* Position it in the corner */
+  top: 20px; /* Distance from the top */
+  left: 20px; /* Distance from the left */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 16px; /* Button text size */
+  background-color: #033a13; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove default border */
+  border-radius: 7rem; /* Circular edges */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.back-button:hover {
+  background-color: #6bbf73; /* Darken the button on hover */
+}
